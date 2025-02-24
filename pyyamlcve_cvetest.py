@@ -12,7 +12,7 @@ address:
 """
 
 # Load the YAML content
-data = yaml.load(yaml_content)
+data = yaml.load(yaml_content,Loader=yaml.Loader)
 
 # Print the loaded data
 print(data)
